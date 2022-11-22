@@ -29,7 +29,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "ts.external.directory.path": "D:\\work_dir\\fssp\\node_modules\\typescript\\lib"
   }
 }]]></component>
@@ -41,7 +41,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669140970286</updated>
-      <workItem from="1669140971834" duration="2626000" />
+      <workItem from="1669140971834" duration="5040000" />
     </task>
     <servers />
   </component>
