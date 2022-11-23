@@ -8,3 +8,14 @@
 .btn{
   @apply px-4 py-2 rounded shadow bg-white text-gray-500;
 }
+
+
+
+.navigation{
+  @apply fixed top-0 -left-full w-[90%] max-w-[300px] bg-gray-200 h-screen shadow;
+  &-show{
+    left: 0;
+  }
+
+  transition: left 0.17s ease-in-out;
+}

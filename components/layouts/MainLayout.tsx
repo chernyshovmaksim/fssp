@@ -1,6 +1,7 @@
 import {FC, ReactNode} from "react";
 import Head from "next/head";
 import Header from "../blocks/Header";
+import Navigation from "../blocks/Navigation";
 
 interface IMainLayout{
     title: string
@@ -8,6 +9,7 @@ interface IMainLayout{
 }
 
 const MainLayout:FC<IMainLayout> = ({children, title}) => {
+
     return (
         <>
             <Head>
@@ -17,8 +19,7 @@ const MainLayout:FC<IMainLayout> = ({children, title}) => {
             </Head>
 
             <Header />
-
-
+            <Navigation />
 
             <div className={'container mx-auto'}>{children}</div>
         </>
