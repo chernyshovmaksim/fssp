@@ -1,7 +1,7 @@
 import { FC } from "react";
-import { HiBellAlert } from "react-icons/hi2";
+
 import { HiSearch } from "react-icons/hi";
-import { FaRegCreditCard } from "react-icons/fa";
+import { FaRegCreditCard, FaBell } from "react-icons/fa";
 import { SiAdguard } from "react-icons/si";
 
 const Info: FC = () => {
@@ -11,7 +11,7 @@ const Info: FC = () => {
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 gap-y-12">
           <div className="flex items-center gap-2">
             <div>
-              <HiBellAlert className="text-emerald-700 text-4xl" />
+              <FaBell className="text-emerald-700 text-4xl" />
             </div>
             <div>
               <h4 className="text-2xl font-bold text-gray-700">
