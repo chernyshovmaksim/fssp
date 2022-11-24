@@ -24,7 +24,7 @@ const Action: FC = () => {
           </div>
           <div className="mt-12 md:mt-0">
             <form>
-              <div className="flex gap-2">
+              <div className="flex flex-col md:flex-row md:gap-2">
                 <div className="flex flex-col flex-1">
                   <label className={styles.label} htmlFor="name">
                     Имя
@@ -48,7 +48,7 @@ const Action: FC = () => {
                   />
                 </div>
               </div>
-              <div className="flex gap-2 mt-4">
+              <div className="flex flex-col md:flex-row md:gap-2 mt-4">
                 <div className="flex flex-col flex-1">
                   <label className={styles.label} htmlFor="day">
                     День рождения
@@ -150,9 +150,9 @@ const Action: FC = () => {
                   />
                 </div>
               </div>
-              <div className="mt-8 flex flex-1 gap-2 items-center">
+              <div className="mt-8 flex flex-col md:flex-row flex-1 items-center">
                 <div className="flex items-center gap-2 flex-1 hover:cursor-pointer">
-                  <input name="politics" type="checkbox" checked={true} />
+                  <input name="politics" type="checkbox" />
                   <label htmlFor="politics" className="text-xs text-gray-500">
                     Согласен на обработку персональных данных, с политикой
                     конфиденциальности и с правилами пользования сервисом
@@ -160,7 +160,7 @@ const Action: FC = () => {
                 </div>
                 <Link
                   href={"/"}
-                  className="btn-primary"
+                  className="btn-primary mt-2"
                 >
                   Начать поиск
                 </Link>
