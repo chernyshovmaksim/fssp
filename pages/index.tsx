@@ -3,6 +3,7 @@
 import MainLayout from "../components/layouts/MainLayout";
 import Action from "../components/blocks/Action";
 import Info from "../components/blocks/Info";
+import Bases from "../components/blocks/Bases";
 
 export default function Home() {
     const title = "Узнать задолженность у судебных приставов: по фамилии, алиментам или номеру постановления"
@@ -12,6 +13,7 @@ export default function Home() {
             <MainLayout title={title}>
                 <Action />
                 <Info />
+                <Bases />
             </MainLayout>
         </>
     )

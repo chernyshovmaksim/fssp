@@ -11,7 +11,7 @@ const Info: FC = () => {
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 gap-y-12">
           <div className="flex items-center gap-2">
             <div>
-              <HiBellAlert className="text-emerald-700 text-6xl" />
+              <HiBellAlert className="text-emerald-700 text-4xl" />
             </div>
             <div>
               <h4 className="text-2xl font-bold text-gray-700">
@@ -24,7 +24,7 @@ const Info: FC = () => {
           </div>
           <div className="flex items-center gap-2">
             <div>
-              <FaRegCreditCard className="text-emerald-700 text-6xl" />
+              <FaRegCreditCard className="text-emerald-700 text-4xl" />
             </div>
             <div>
               <h4 className="text-2xl font-bold text-gray-700">
@@ -37,7 +37,7 @@ const Info: FC = () => {
           </div>
           <div className="flex items-center gap-2">
             <div>
-              <HiSearch className="text-emerald-700 text-6xl" />
+              <HiSearch className="text-emerald-700 text-4xl" />
             </div>
             <div>
               <h4 className="text-2xl font-bold text-gray-700">
@@ -50,7 +50,7 @@ const Info: FC = () => {
           </div>
           <div className="flex items-center gap-2">
             <div>
-              <SiAdguard className="text-emerald-700 text-6xl" />
+              <SiAdguard className="text-emerald-700 text-4xl" />
             </div>
             <div>
               <h4 className="text-2xl font-bold text-gray-700">
