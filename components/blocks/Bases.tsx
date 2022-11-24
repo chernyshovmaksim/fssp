@@ -14,7 +14,7 @@ const Bases: FC = () => {
             Доступные базы для поиска и мониторинга
           </h3>
           <div className="grid grid-cols-1 gap-y-16 md:grid-cols-3 md:gap-4">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 border rounded p-4 shadow">
               <Image
                 src={gibddLogo.src}
                 width={60}
@@ -24,15 +24,15 @@ const Bases: FC = () => {
                 }
               />
               <div className="flex flex-col flex-1">
-                <h4 className="text-2xl font-bold text-gray-700">
+                <h4 className="text-xl font-bold text-gray-700">
                   Государственная инспекция безопасности дорожного движения
                 </h4>
-                <span className="text-gray-500">
+                <span className=" text-xs text-gray-500">
                   Поиск штрафов по стс и гос номерам
                 </span>
               </div>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 border rounded p-4 shadow">
               <Image
                 src={fnsLogo.src}
                 width={60}
@@ -41,16 +41,15 @@ const Bases: FC = () => {
               />
 
               <div className="flex flex-col flex-1">
-                <h4 className="text-2xl font-bold text-gray-700">
+                <h4 className="text-xl font-bold text-gray-700">
                   Федеральная налоговая служба
                 </h4>
-                <span className="text-gray-500">
+                <span className="text-xs text-gray-500">
                   Предоставление сведений из ЕГРЮЛ/ЕГРИП
                 </span>
               </div>
             </div>
-            <div className="flex items-center gap-4">
-
+            <div className="flex items-center gap-4 border rounded p-4 shadow">
                 <Image
                   src={fsspLogo.src}
                   width={60}
@@ -58,10 +57,10 @@ const Bases: FC = () => {
                   alt={"Федеральная служба судебных приставов"}
                 />
               <div className="flex flex-col flex-1">
-                <h4 className="text-2xl font-bold text-gray-700">
+                <h4 className="text-xl font-bold text-gray-700">
                   Федеральная служба судебных приставов
                 </h4>
-                <span className="text-gray-500">
+                <span className="text-xs text-gray-500">
                   Поиск по ФИО и номерам исполнительных производств
                 </span>
               </div>
