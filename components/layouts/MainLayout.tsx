@@ -34,7 +34,7 @@ const MainLayout: FC<IMainLayout> = ({children, title}) => {
 
                 <Navigation/>
 
-                <div className={'container mx-auto'}>{children}</div>
+                <div>{children}</div>
             </div>
         </>
     )

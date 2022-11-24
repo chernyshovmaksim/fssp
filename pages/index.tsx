@@ -2,6 +2,7 @@
 
 import MainLayout from "../components/layouts/MainLayout";
 import Fancybox from "./../components/ui/Fancybox";
+import Action from "../components/blocks/Action";
 
 export default function Home() {
     const title = "Узнать задолженность у судебных приставов: по фамилии, алиментам или номеру постановления"
@@ -9,7 +10,7 @@ export default function Home() {
     return (
         <>
             <MainLayout title={title}>
-
+                <Action />
             </MainLayout>
         </>
     )
