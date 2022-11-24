@@ -3,6 +3,7 @@ import Head from "next/head";
 import Header from "../blocks/Header";
 import Navigation from "../blocks/Navigation";
 import NavigationStore from "../../store/NavigationStore";
+import Hero from "../blocks/Hero";
 
 interface IMainLayout {
     title: string
@@ -28,6 +29,9 @@ const MainLayout: FC<IMainLayout> = ({children, title}) => {
                 </Head>
 
                 <Header/>
+
+                <Hero />
+
                 <Navigation/>
 
                 <div className={'container mx-auto'}>{children}</div>
