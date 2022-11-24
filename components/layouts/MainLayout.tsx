@@ -4,6 +4,7 @@ import Header from "../blocks/Header";
 import Navigation from "../blocks/Navigation";
 import NavigationStore from "../../store/NavigationStore";
 import Hero from "../blocks/Hero";
+import Footer from "../blocks/Footer";
 
 interface IMainLayout {
     title: string
@@ -35,6 +36,8 @@ const MainLayout: FC<IMainLayout> = ({children, title}) => {
                 <Navigation/>
 
                 <div>{children}</div>
+
+                <Footer />
             </div>
         </>
     )

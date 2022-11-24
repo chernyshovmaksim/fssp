@@ -8,7 +8,7 @@ import fsspLogo from "./../../public/images/fssp.svg";
 const Bases: FC = () => {
   return (
     <>
-      <section className="bases py-8">
+      <section className="bases py-32">
         <div className="container mx-auto">
           <h3 className="text-3xl font-bold text-gray-900 mb-8">
             Доступные базы для поиска и мониторинга

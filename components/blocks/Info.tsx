@@ -7,7 +7,7 @@ import { SiAdguard } from "react-icons/si";
 const Info: FC = () => {
   return (
     <>
-      <section className="info py-8 bg-gray-200">
+      <section className="info py-32 bg-gray-200">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 gap-y-12">
           <div className="flex items-center gap-2">
             <div>
