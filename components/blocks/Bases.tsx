@@ -4,6 +4,7 @@ import Image from "next/image";
 import gibddLogo from "./../../public/images/gibdd.svg";
 import fnsLogo from "./../../public/images/fns.svg";
 import fsspLogo from "./../../public/images/fssp.svg";
+import Link from "next/link";
 
 const Bases: FC = () => {
   return (
@@ -14,7 +15,7 @@ const Bases: FC = () => {
             Доступные базы для поиска и мониторинга
           </h3>
           <div className="grid grid-cols-1 gap-y-16 md:grid-cols-3 md:gap-4">
-            <div className="flex items-center gap-4 border rounded p-4 shadow">
+            <Link href={"https://xn--90adear.xn--p1ai/"} className="flex items-center gap-4 border rounded p-4 shadow">
               <Image
                 src={gibddLogo.src}
                 width={60}
@@ -31,7 +32,7 @@ const Bases: FC = () => {
                   Поиск штрафов по стс и гос номерам
                 </span>
               </div>
-            </div>
+            </Link>
             <div className="flex items-center gap-4 border rounded p-4 shadow">
               <Image
                 src={fnsLogo.src}
