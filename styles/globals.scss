@@ -15,7 +15,7 @@
 
 
 .navigation{
-  @apply fixed top-0 -left-full w-[90%] max-w-[300px] bg-gray-200 h-screen shadow;
+  @apply fixed top-0 -left-full w-[90%] max-w-[300px] bg-gray-100 h-screen shadow;
   &-show{
     left: 0;
   }

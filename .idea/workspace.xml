@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d55f3ba2-60c0-4ae7-861d-d435f6803a5d" name="Changes" comment="Fixed validation form">
+      <change afterPath="$PROJECT_DIR$/pages/privacy-policy.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/users-agreement.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/blocks/Action.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blocks/Action.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/blocks/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blocks/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/blocks/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blocks/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/blocks/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blocks/Hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/FormGroup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/FormGroup.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Hero.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Hero.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/blocks/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blocks/Navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "yarn",
     "prettierjs.PrettierConfiguration.Package": "D:\\work_dir\\fssp\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
     "ts.external.directory.path": "D:\\work_dir\\fssp\\node_modules\\typescript\\lib"
   }
 }]]></component>
@@ -71,8 +72,16 @@
       <workItem from="1669384956241" duration="2987000" />
       <workItem from="1669615622798" duration="5051000" />
       <workItem from="1669627625782" duration="9358000" />
-      <workItem from="1669649446215" duration="184000" />
+      <workItem from="1669649446215" duration="1854000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed validation form">
+      <created>1669649674447</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669649674447</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

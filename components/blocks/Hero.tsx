@@ -13,8 +13,8 @@ const Hero: FC = () => {
                     <div className={styles.logo}>
                         <Link href={'/'}><Image src={Logo.src} alt={'ФССП'} width={90} height={100}/></Link>
                         <div>
-                            <h3 className='text-2xl font-bold text-gray-700'>Долги по ФССП</h3>
-                            <span className="text-xs text-gray-500">Поиск долгов в банке данных судебных приставов</span>
+                            <h3 className='text-xl font-bold text-gray-700'>Поиск долгов в банке данных <br/>судебных приставов</h3>
+                            <span className="text-xs text-gray-500">Информационный сайт</span>
                         </div>
                     </div>
 
