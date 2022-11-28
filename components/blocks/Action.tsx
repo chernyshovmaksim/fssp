@@ -3,15 +3,16 @@ import styles from "./../../styles/Action.module.scss";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
 
+interface IFormValues {
+  firstName: string
+  lastName: string
+}
+
 const Action: FC = () => {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
-  const onSubmit = (data: object) => {
-    alert(JSON.stringify(data));
-  };
+
+  const { register, handleSubmit, formState: { errors } } = useForm<IFormValues>();
+  const onSubmit = handleSubmit((data) => alert(data));
+
   return (
     <>
       <section className={styles.action}>
@@ -32,26 +33,20 @@ const Action: FC = () => {
             </div>
           </div>
           <div className="mt-12 md:mt-0">
-            <form onSubmit={handleSubmit(onSubmit)}>
+            <form onSubmit={onSubmit}>
               <div className="flex flex-col md:flex-row md:gap-2">
                 <div className="flex flex-col flex-1">
                   <label className={styles.label} htmlFor="name">
                     Имя
                   </label>
                   <input
-                    {...register("name", {
-                      required: "Поле обязательно для заполнения",
-                    })}
                     className={styles.input}
                     placeholder="Иван"
+                    {...register('firstName', {
+                      required: "Имя обязательно для заполнения"
+                    })}
                   />
-                  <div>
-                    {errors?.name && (
-                      <p className="text-xs text-red-500">
-                        {errors?.name?.message}
-                      </p>
-                    )}
-                  </div>
+                  <div className="text-xs text-red-600 mt-2">{errors?.firstName && <p>{errors?.firstName?.message}</p>}</div>
                 </div>
 
                 <div className="flex flex-col flex-1">
@@ -60,30 +55,32 @@ const Action: FC = () => {
                   </label>
                   <input
                     className={styles.input}
-                    {...register("lastName", {
-                      required: "Поле обязательно для заполнения",
-                    })}
                     placeholder="Иванов"
+                    {...register('lastName', {
+                      required: "Фамилия обязательна для заполнения"
+                    })}
                   />
-                  <div>
-                    {errors?.lastName && (
-                      <p className="text-xs text-red-500">
-                        {errors?.lastName?.message}
-                      </p>
-                    )}
-                  </div>
+                  <div className="text-xs text-red-600 mt-2">{errors?.lastName && <p>{errors?.lastName?.message}</p>}</div>
                 </div>
               </div>
 
               <div className="mt-8">
                 <label className="flex items-center gap-4">
-                  <input type="checkbox" className="original-checkbox hidden" defaultChecked={true} />
+                  <input
+                    type="checkbox"
+                    className="original-checkbox hidden"
+                    defaultChecked={true}
+                  />
                   <div className="fake-checkbox"></div>
                   <span className="text-xs text-gray-600 cursor-pointer">
                     Согласен на обработку персональных данных, с политикой
                     конфиденциальности и с правилами пользования сервисом
                   </span>
                 </label>
+              </div>
+
+              <div className="mt-4">
+                <button type="submit" className="btn-primary">Проверить</button>
               </div>
             </form>
           </div>

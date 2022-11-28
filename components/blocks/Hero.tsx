@@ -8,7 +8,7 @@ import Logo from "./../../public/logo.svg"
 const Hero: FC = () => {
     return (
         <>
-            <section className={styles.hero}>
+            <section className={styles.heroOne}>
                 <div className="container mx-auto">
                     <div className={styles.logo}>
                         <Link href={'/'}><Image src={Logo.src} alt={'ФССП'} width={90} height={100}/></Link>
