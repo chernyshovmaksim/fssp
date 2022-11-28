@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d55f3ba2-60c0-4ae7-861d-d435f6803a5d" name="Changes" comment="added new pages and add in Navigation.tsx">
-      <change afterPath="$PROJECT_DIR$/components/blocks/Statistic.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/blocks/Bases.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blocks/Bases.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layouts/MainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layouts/MainLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/NavigationStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/NavigationStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/blocks/Statistic.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blocks/Statistic.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
