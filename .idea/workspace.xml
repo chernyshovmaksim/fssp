@@ -5,13 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="221f332a-456f-4bef-b64e-6db79c07ffca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/questions/four.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/questions/one.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/questions/three.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/questions/two.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/blocks/Action.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blocks/Action.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/blocks/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blocks/Hero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/blocks/Statistic.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blocks/Statistic.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/Fancybox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/FormGroup.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/privacy-policy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/privacy-policy.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/users-agreement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users-agreement.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -30,6 +52,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "ts.external.directory.path": "D:\\work_dir\\fssp\\node_modules\\typescript\\lib"
   }
 }]]></component>
@@ -41,7 +64,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669720565216</updated>
-      <workItem from="1669720570240" duration="4258000" />
+      <workItem from="1669720570240" duration="14028000" />
+      <workItem from="1669742366301" duration="1518000" />
+      <workItem from="1669745135107" duration="2471000" />
     </task>
     <servers />
   </component>

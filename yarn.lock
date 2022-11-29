@@ -32,11 +32,6 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@fancyapps/ui@^4.0.31":
-  version "4.0.31"
-  resolved "https://registry.yarnpkg.com/@fancyapps/ui/-/ui-4.0.31.tgz#cf187b0ffe41ec1f44fd2ba2c2237f5cf7914619"
-  integrity sha512-D7+PMIloxSOFJyY+lXcNlVDhmssOmDT6PT5fqQUIiws2hT7PH29r0EKZxERmACSQpm6qrFkP7rSguzXWvRJduQ==
-
 "@humanwhocodes/config-array@^0.11.6":
   version "0.11.7"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.7.tgz#38aec044c6c828f6ed51d5d7ae3d9b9faf6dbb0f"
@@ -1163,11 +1158,6 @@ ignore@^5.2.0:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.1.tgz#c2b1f76cb999ede1502f3a226a9310fdfe88d46c"
   integrity sha512-d2qQLzTJ9WxQftPAuEQpSPmKqzxePjzVbpAVv62AQ64NTL+wR4JkrVqR/LqFsFEUsHDAiId52mJteHDFuDkElA==
 
-imask@^6.4.3:
-  version "6.4.3"
-  resolved "https://registry.yarnpkg.com/imask/-/imask-6.4.3.tgz#b81b247043807995e048f559e98930c2fec8004a"
-  integrity sha512-aH2GHemGkr3cbRBfhogHMIx05eUxdHrZNlKTTLmz8VxpSopuHHJ8+85FsDlBVQqxPlDLhZuwj4lpHHWbLOdBSw==
-
 immutable@^4.0.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/immutable/-/immutable-4.1.0.tgz#f795787f0db780183307b9eb2091fcac1f6fafef"
@@ -1746,7 +1736,7 @@ prettier@^2.8.0:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.0.tgz#c7df58393c9ba77d6fba3921ae01faf994fb9dc9"
   integrity sha512-9Lmg8hTFZKG0Asr/kW9Bp8tJjRVluO8EJQVfY2T7FMw9T5jy4I/Uvx0Rca/XWf50QQ1/SS48+6IJWnrb+2yemA==
 
-prop-types@^15.7.2, prop-types@^15.8.1:
+prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -1787,14 +1777,6 @@ react-icons@^4.6.0:
   version "4.7.1"
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.7.1.tgz#0f4b25a5694e6972677cb189d2a72eabea7a8345"
   integrity sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw==
-
-react-imask@^6.4.3:
-  version "6.4.3"
-  resolved "https://registry.yarnpkg.com/react-imask/-/react-imask-6.4.3.tgz#845de954e03e98179a23b92722ed3661cbd11037"
-  integrity sha512-5WyCbubQErO8Wr/zLDyUyC1zCqQXP979QXW6BNirUGsM1VxFmVG0nNfXA1PSXlgdbaXWBiBj+VJBvg/8BDzieA==
-  dependencies:
-    imask "^6.4.3"
-    prop-types "^15.7.2"
 
 react-is@^16.13.1:
   version "16.13.1"

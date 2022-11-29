@@ -3,6 +3,8 @@
 #ide
 /.idea/
 
+/out/
+
 #Yarn
 yarn.lock
 

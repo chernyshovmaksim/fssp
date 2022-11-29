@@ -8,7 +8,11 @@ export default function PrivacyPolicy (){
     <MainLayout title={title}>
         <section>
           <div className="container mx-auto py-8">
-            <h1 className="text-2xl">{title}</h1>
+            <h1 className="text-2xl py-4">{title}</h1>
+
+              <div id="content">
+                  Сюда вставлять контент
+              </div>
           </div>
         </section>
     </MainLayout>
