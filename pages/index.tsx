@@ -15,7 +15,7 @@ export default function Home() {
       <MainLayout title={title}>
         <Action />
         <Info />
-        <Statistic />
+        {/* <Statistic /> */}
         <Bases />
       </MainLayout>
     </>

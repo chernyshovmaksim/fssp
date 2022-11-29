@@ -18,11 +18,11 @@ const Navigation: FC = () => {
                     <GrClose onClick={changeSNavigation} className="text-2xl text-gray-700 hover:cursor-pointer hover:animate-pulse" />
                 </div>
                 <div className="flex flex-col p-4 gap-4">
-                    <Link href={'/'}>Главная</Link>
+                    <Link onClick={changeSNavigation} href={'/'}>Главная</Link>
                 </div>
                 <div className="p-4 flex flex-col gap-4 border-t border-gray-200">
-                    <Link className="underline text-emerald-700 text-xs" href={"/privacy-policy"}>Политика конфиденциальности</Link>
-                    <Link className="underline text-emerald-700 text-xs" href={"/users-agreement"}>Пользовательское соглашение</Link>
+                    <Link onClick={changeSNavigation} className="underline text-emerald-700 text-xs" href={"/privacy-policy"}>Политика конфиденциальности</Link>
+                    <Link onClick={changeSNavigation} className="underline text-emerald-700 text-xs" href={"/users-agreement"}>Пользовательское соглашение</Link>
                 </div>
             </div>
         </>

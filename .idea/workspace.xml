@@ -4,96 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d55f3ba2-60c0-4ae7-861d-d435f6803a5d" name="Changes" comment="added new pages and add in Navigation.tsx">
+    <list default="true" id="221f332a-456f-4bef-b64e-6db79c07ffca" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/blocks/Statistic.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blocks/Statistic.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/blocks/Action.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blocks/Action.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/blocks/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blocks/Navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/NavigationStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/NavigationStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
-      </list>
-    </option>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2HuhdrxrDozT6VXrCDwQiNdBai9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2IDeOiiK3CdABX177446aiCedp6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/work_dir/fssp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;D:\\work_dir\\fssp\\node_modules\\eslint&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\work_dir\\fssp\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\work_dir\\fssp\\node_modules\\typescript\\lib&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "D:\\work_dir\\fssp\\node_modules\\typescript\\lib"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d55f3ba2-60c0-4ae7-861d-d435f6803a5d" name="Changes" comment="" />
-      <created>1669140970286</created>
+      <changelist id="221f332a-456f-4bef-b64e-6db79c07ffca" name="Changes" comment="" />
+      <created>1669720565216</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1669140970286</updated>
-      <workItem from="1669140971834" duration="5560000" />
-      <workItem from="1669208007583" duration="1436000" />
-      <workItem from="1669209590681" duration="9396000" />
-      <workItem from="1669269178897" duration="29984000" />
-      <workItem from="1669354610838" duration="3287000" />
-      <workItem from="1669384956241" duration="2987000" />
-      <workItem from="1669615622798" duration="5051000" />
-      <workItem from="1669627625782" duration="9358000" />
-      <workItem from="1669649446215" duration="184000" />
+      <updated>1669720565216</updated>
+      <workItem from="1669720570240" duration="3830000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="dependencySupport" implementationName="javascript:npm:tailwindcss" />
-    <option featureType="dependencySupport" implementationName="javascript:npm:next" />
-    <option featureType="dependencySupport" implementationName="javascript:npm:postcss" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
-    <MESSAGE value="Fixed validation form" />
-    <MESSAGE value="added new pages and add in Navigation.tsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new pages and add in Navigation.tsx" />
   </component>
 </project>
