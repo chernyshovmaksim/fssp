@@ -119,7 +119,7 @@ const Action: FC = () => {
                                     <div className="fake-checkbox"></div>
                                     <span className="text-xs text-gray-600 cursor-pointer">
                     Согласен на{" "}
-                                        <Link href={"/"} className="text-emerald-700 underline">
+                                        <Link href={"/users-agreement"} target={'_blank'} className="text-emerald-700 underline">
                       обработку персональных данных
                     </Link>
                     , с политикой конфиденциальности и с правилами пользования
