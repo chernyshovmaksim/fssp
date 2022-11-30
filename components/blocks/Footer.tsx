@@ -7,9 +7,12 @@ const Footer: FC = () => {
       <footer className="bg-gray-200 py-16">
         <div className="container mx-auto">
           <div>
-            <h5 className="text-xl font-bold text-center">Долги по ФССП</h5>
+            <h5 className="text-xl font-bold text-center">
+              Сервис проверки <br />
+              задолженностей
+            </h5>
             <span className="text-gray-500 text-xs text-center block">
-              Поиск долгов в банке данных судебных приставов
+              Информационый сайт
             </span>
           </div>
           <div className="mt-4 flex flex-col items-center text-xs">
