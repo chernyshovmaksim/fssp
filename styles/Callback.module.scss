@@ -1,28 +1,26 @@
 .callback{
   @apply py-8;
-
-  .block {
-    @apply p-4;
-
-    .header{
-      @apply text-xl mb-4;
-    }
-
-    .text{
-      @apply text-xs text-gray-700;
-    }
-
-
-  }
-
   &__container{
     @apply grid grid-cols-1 md:grid-cols-2 gap-4;
   }
-
 }
+
+.block {
+  @apply p-4;
+}
+
+.header{
+  @apply text-xl mb-4;
+}
+
+.text{
+  @apply text-xs text-gray-700;
+}
+
 .blue{
   @apply bg-indigo-50;
 }
+
 .pink{
   @apply bg-pink-50;
 }

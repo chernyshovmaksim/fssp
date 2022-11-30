@@ -2,31 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-.container{
+a {
+  @apply text-emerald-700;
+}
+ol {
+  @apply list-decimal text-xs pl-4;
+}
+ul {
+  @apply list-disc text-xs pl-4;
+}
+
+.container {
   @apply px-2 w-[90%] max-w-[1180px] mx-auto;
 }
-.btn{
+.btn {
   @apply px-4 py-2 rounded shadow bg-white text-gray-500;
 }
-.btn-primary{
+.btn-primary {
   @apply px-4 py-2 rounded shadow bg-emerald-700 text-white hover:bg-emerald-800;
 }
 
-
-
-.navigation{
+.navigation {
   @apply fixed top-0 -left-full w-[90%] max-w-[300px] bg-gray-100 h-screen shadow;
-  &-show{
+  &-show {
     left: 0;
   }
 
   transition: left 0.25s ease-in-out;
 }
 
-.fake-checkbox{
+.fake-checkbox {
   @apply flex w-8 h-8 border border-gray-200 rounded shadow relative;
   flex: 1 0 2rem;
-  &::before{
+  &::before {
     content: "";
     position: absolute;
     width: 50%;
@@ -39,6 +47,10 @@
     transition: all 0.2s;
   }
 }
-.original-checkbox:checked + .fake-checkbox::before{
+.original-checkbox:checked + .fake-checkbox::before {
   opacity: 1;
+}
+
+.header-3 {
+  @apply text-xl py-4 mt-2 font-bold uppercase;
 }
