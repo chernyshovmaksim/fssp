@@ -9,7 +9,7 @@ import Link from "next/link";
 const Bases: FC = () => {
   return (
     <>
-      <section className="bases py-32">
+      <section className="bases py-8">
         <div className="container mx-auto">
           <h3 className="text-xl md:text-3xl font-bold text-gray-900 mb-8">
             Сервисы для граждан РФ

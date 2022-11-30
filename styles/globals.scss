@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .container{
-  @apply px-2 w-[90%] max-w-[1180px];
+  @apply px-2 w-[90%] max-w-[1180px] mx-auto;
 }
 .btn{
   @apply px-4 py-2 rounded shadow bg-white text-gray-500;

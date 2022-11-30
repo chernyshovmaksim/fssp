@@ -5,6 +5,7 @@ import Action from "../components/blocks/Action";
 import Info from "../components/blocks/Info";
 import Bases from "../components/blocks/Bases";
 import Statistic from "../components/blocks/Statistic";
+import Callback from "../components/blocks/Callback";
 
 export default function Home() {
     const title =
@@ -16,6 +17,7 @@ export default function Home() {
                 <Action/>
                 <Info/>
                 <Statistic/>
+                <Callback />
                 <Bases/>
             </MainLayout>
         </>
