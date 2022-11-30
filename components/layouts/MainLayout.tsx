@@ -25,6 +25,11 @@ const MainLayout: FC<IMainLayout> = ({ children, title }) => {
       <div className={classListBody.join(" ")}>
         <Head>
           <title>{title}</title>
+          <meta name="keywords" content="узнать долги, поиск задолженностей" />
+          <meta
+            name="description"
+            content="Поиск задолженностей ФССП РФ по фамилии, номеру ИП и другим документам."
+          />
         </Head>
 
         <Header />
