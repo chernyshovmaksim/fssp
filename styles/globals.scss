@@ -11,6 +11,9 @@ ol {
 ul {
   @apply list-disc text-xs pl-4;
 }
+p {
+  @apply py-2;
+}
 
 .container {
   @apply px-2 w-[90%] max-w-[1180px] mx-auto;
