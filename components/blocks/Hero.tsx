@@ -15,10 +15,12 @@ const Hero: FC = () => {
             </Link>
             <div>
               <h3 className="text-xl font-bold text-gray-700">
-                Поиск долгов в банке <br />
+                Поиск долгов в банке данных <br />
                 судебных приставов
               </h3>
-              <span className="text-xs text-gray-500">Информационный сайт</span>
+              <span className="text-xs text-gray-500">
+                Сервис проверки задолженностей
+              </span>
             </div>
           </div>
         </div>
