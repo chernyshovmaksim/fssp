@@ -1,10 +1,4 @@
 import { FC } from "react";
-import Image from "next/image";
-
-import gibddLogo from "./../../public/images/gibdd.svg";
-import fnsLogo from "./../../public/images/fns.svg";
-import fsspLogo from "./../../public/images/fssp.svg";
-import Link from "next/link";
 
 const Bases: FC = () => {
   return (

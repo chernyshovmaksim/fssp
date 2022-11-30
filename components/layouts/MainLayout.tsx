@@ -7,42 +7,38 @@ import Hero from "../blocks/Hero";
 import Footer from "../blocks/Footer";
 
 interface IMainLayout {
-    title: string
-    children: ReactNode
+  title: string;
+  children: ReactNode;
 }
 
-const MainLayout: FC<IMainLayout> = ({children, title}) => {
+const MainLayout: FC<IMainLayout> = ({ children, title }) => {
+  const NavigationStatus = NavigationStore((state) => state.status);
 
-    const NavigationStatus = NavigationStore(state => state.status)
-    
-    let classListBody = ['min-h-screen']
+  let classListBody = ["min-h-screen"];
 
-    if(NavigationStatus){
-        classListBody.push('overflow-hidden')
-    }
+  if (NavigationStatus) {
+    classListBody.push("overflow-hidden");
+  }
 
+  return (
+    <>
+      <div className={classListBody.join(" ")}>
+        <Head>
+          <title>{title}</title>
+        </Head>
 
-    return (
-        <>
-            <div className={classListBody.join(' ')}>
-                <Head>
-                    <title>
-                        {title}
-                    </title>
-                </Head>
+        <Header />
 
-                <Header/>
+        <Hero />
 
-                <Hero />
+        <Navigation />
 
-                <Navigation/>
+        <div>{children}</div>
 
-                <div>{children}</div>
+        <Footer />
+      </div>
+    </>
+  );
+};
 
-                <Footer />
-            </div>
-        </>
-    )
-}
-
-export default MainLayout
+export default MainLayout;
