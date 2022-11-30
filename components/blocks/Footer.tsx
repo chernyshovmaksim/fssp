@@ -21,8 +21,8 @@ const Footer: FC = () => {
             <div>Контактный телефон: +7 (910) 444-77-66</div>
             <div>
               E-mail:{" "}
-              <Link href="mailto://moi-dolgi1@gmail.com">
-                moi-dolgi1@gmail.com
+              <Link href="mailto://fssp-official@main.ru">
+                fssp-official@main.ru
               </Link>
             </div>
           </div>

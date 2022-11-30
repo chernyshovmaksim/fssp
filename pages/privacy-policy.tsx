@@ -959,7 +959,9 @@ export default function PrivacyPolicy() {
                   Пользователь вправе направлять в службу поддержки Пользователя
                   Оператора путем отправки электронного сообщения на адрес
                   электронной почты:{" "}
-                  <a href="mailto:support@ufssp.net">support@ufssp.net</a>
+                  <a href="mailto:fssp-official@main.ru">
+                    fssp-official@main.ru
+                  </a>
                 </li>
               </ol>
             </div>

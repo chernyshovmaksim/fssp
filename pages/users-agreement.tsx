@@ -52,7 +52,7 @@ export default function UsersAgreement() {
                 расположенных на веб-сайте по адресу:&nbsp;
               </span>
               <span>
-                <a href="https://ufssp.net">https://ufssp.net</a>
+                <a href="https://fssp-official.ru">https://fssp-official.ru</a>
               </span>
             </p>
             <p>
@@ -97,7 +97,9 @@ export default function UsersAgreement() {
                     веб-сайте по адресу:&nbsp;
                   </span>
                   <span>
-                    <a href="https://ufssp.net">https://ufssp.net</a>
+                    <a href="https://fssp-official.ru">
+                      https://fssp-official.ru
+                    </a>
                   </span>
                   <span>
                     , представляющий собой платформу для получения информации о
@@ -477,7 +479,7 @@ export default function UsersAgreement() {
                     электронной почты:&nbsp;
                   </span>
                   <span>
-                    <a href="https://ufssp.net">support@ufssp.net</a>
+                    <a href="https://fssp-official.ru">fssp-official@mail.ru</a>
                   </span>
                   <span>
                     . Консультация специалиста может быть предоставлена по
@@ -745,7 +747,7 @@ export default function UsersAgreement() {
                     направленном Администрации на адрес электронной почты:&nbsp;
                   </span>
                   <span>
-                    <a href="https://ufssp.net">support@ufssp.net</a>
+                    <a href="https://fssp-official.ru">fssp-official@mail.ru</a>
                   </span>
                   <span>
                     , которое должно содержать указание на причину, по которой
@@ -788,8 +790,8 @@ export default function UsersAgreement() {
                     размещена по адресу:&nbsp;
                   </span>
                   <span>
-                    <a href="https://ufssp.net">
-                      https://ufssp.net/confidential-policy
+                    <a href="https://fssp-official.ru/privacy-policy">
+                      https://fssp-official.ru/privacy-policy
                     </a>
                   </span>
                   <span>&nbsp;</span>
@@ -934,7 +936,9 @@ export default function UsersAgreement() {
                   Федеральной службой судебных приставов по адресу:{" "}
                 </span>
                 <span>
-                  <a href="https://ufssp.net">https://fssp.gov.ru/iss/ip</a>
+                  <a href="https://fssp-official.ru">
+                    https://fssp-official.ru
+                  </a>
                 </span>
               </p>
               <p>
@@ -980,7 +984,7 @@ export default function UsersAgreement() {
                     почты:&nbsp;
                   </span>
                   <span>
-                    <a href="https://ufssp.net">support@ufssp.net</a>
+                    <a href="https://fssp-official.ru">fssp-official@mail.ru</a>
                   </span>
                   <span>
                     . Администрация не несет ответственности и не гарантирует
@@ -995,7 +999,7 @@ export default function UsersAgreement() {
                     сообщения на адрес электронной почты:&nbsp;
                   </span>
                   <span>
-                    <a href="https://ufssp.net">support@ufssp.net</a>
+                    <a href="https://fssp-official.ru">fssp-official@mail.ru</a>
                   </span>
                   <span>
                     . Администрация обязуется в течение 10 (десяти) рабочих дней
@@ -1055,7 +1059,7 @@ export default function UsersAgreement() {
                     сообщения на адрес электронной почты Администрации:&nbsp;
                   </span>
                   <span>
-                    <a href="https://ufssp.net">support@ufssp.net</a>
+                    <a href="https://fssp-official.ru">fssp-official@mail.ru</a>
                   </span>
                   <span>
                     &nbsp;и адрес электронной почты Пользователя, указанным им
@@ -1095,7 +1099,7 @@ export default function UsersAgreement() {
                     направлено на адрес электронной почты Администрации:&nbsp;
                   </span>
                   <span>
-                    <a href="https://ufssp.net">support@ufssp.net</a>
+                    <a href="https://fssp-official.ru">fssp-official@mail.ru</a>
                   </span>
                   <span>
                     &nbsp;и адрес электронной почты Пользователя, указанный им
@@ -1188,8 +1192,8 @@ export default function UsersAgreement() {
                     сети Интернет на веб-сайте Администрации по адресу:&nbsp;
                   </span>
                   <span>
-                    <a href="https://ufssp.net">
-                      https://ufssp.net/users-agreement#
+                    <a href="https://fssp-official.ru/users-agreement">
+                      https://fssp-official.ru/users-agreement
                     </a>
                   </span>
                   <span>&nbsp;</span>
@@ -1200,9 +1204,9 @@ export default function UsersAgreement() {
                     порядке и без предварительного уведомления Пользователей
                     изменять условия Соглашения, разместив при этом
                     окончательную версию Соглашения на веб-сайте по адресу:
-                    https://ufssp.net/users-agreement# за 10 (десять) дней до
-                    вступления изменений в силу. Положения новой редакции
-                    Соглашения становятся обязательными для всех ранее
+                    https://fssp-official.ru/users-agreement# за 10 (десять)
+                    дней до вступления изменений в силу. Положения новой
+                    редакции Соглашения становятся обязательными для всех ранее
                     зарегистрировавшихся Пользователей Сервиса с даты его
                     вступления в силу.
                   </span>
