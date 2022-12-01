@@ -59,6 +59,7 @@ const Action: FC = () => {
                   <input
                     className={styles.input}
                     placeholder="Иван"
+                    type={"text"}
                     {...register("firstName", {
                       required: "Имя обязательно для заполнения",
                     })}
@@ -75,6 +76,7 @@ const Action: FC = () => {
                   <input
                     className={styles.input}
                     placeholder="Иванов"
+                    type={"text"}
                     {...register("lastName", {
                       required: "Фамилия обязательна для заполнения",
                     })}

@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-const Statistic: FC = (Users) => {
+const Statistic: FC = () => {
   return (
     <section>
       <div className="container mx-auto py-8 overflow-auto">
